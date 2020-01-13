@@ -1,7 +1,6 @@
-def my_enumerate(iterable, start = 0):
+def my_enumerate(iterable, start=0):
     for i in range(len(iterable)):
         yield i, iterable[i]
-
 
 
 if __name__ == "__main__":
